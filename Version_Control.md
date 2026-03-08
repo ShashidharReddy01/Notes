@@ -38,10 +38,8 @@ Structured notes for interviews and day-to-day work. Concise, example-driven.
 
 ## 3. Git Workflow (High Level)
 
-```
-<img width="800" height="568" alt="image" src="https://github.com/user-attachments/assets/8a1bf95d-ced8-48eb-b9d5-21847e11c03a" />
+<img width="1196" height="849" alt="image" src="https://github.com/user-attachments/assets/25b393fe-47b2-414a-a11c-cb378b971123" />
 
-```
 
 1. Edit files (working tree).
 2. `git add` → stage changes (index).
@@ -147,6 +145,9 @@ git branch -m new-name
 | **Three-way merge** | `git merge other` | New merge commit with two parents. | Both branches have new commits. |
 | **Squash merge** | `git merge --squash other` then commit | One new commit with all changes from `other`. | Clean linear history (e.g. one PR = one commit). |
 | **Rebase** | `git rebase other` | Replay your commits on top of `other`. | Linear history; avoid on shared branches. |
+
+<img width="474" height="246" alt="image" src="https://github.com/user-attachments/assets/3857c64e-bd4b-4240-988e-cda9c3bda870" />
+
 
 **Fast-forward example:**
 
